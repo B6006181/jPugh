@@ -6,3 +6,74 @@ body {
     color: #333;
     background-color: lightblue;
   }
+
+  .fan{
+    margin: 0 auto;
+    max-width:1000px;
+    }
+    img.left{
+    display:block;
+    float:left;
+    }
+    img.right{
+    display:block;
+    float:right;
+    }
+
+    .ship{
+      margin: 0 auto;
+      position: absolute;
+      width: 300px;
+      height: 190px;
+      z-index: 15;
+      top: 24%;
+      left: 30%;
+      margin: -100px 0 0 -150px;
+      background: red;
+    }
+
+    .vr{
+      margin: 0 auto;
+      position: absolute;
+      width: 300px;
+      height: 190px;
+      z-index: 15;
+      top: 65%;
+      left: 300%;
+      margin: -100px 0 0 -150px;
+      background: red;
+    }
+
+    .vr2{
+      margin: 0 auto;
+      position: fixed;
+      width: 300px;
+      height: 190px;
+      z-index: 15;
+      top: 35%;
+      left: 20%;
+      margin: -100px 0 0 -150px;
+      background: red;
+    }
+
+    .jumbotron-heading{
+      margin: 0 auto;
+      position: absolute;
+      width: 300px;
+      height: 700px;
+      z-index: 15;
+      top: 15%;
+      left: 10%;
+      margin: -100px 0 0 -150px;
+    }
+
+    .embed-responsive{
+      margin: 0 auto;
+      position: absolute;
+      width: 200px;
+      height: 500px;
+      z-index: 15;
+      top: 225%;
+      left: 10%;
+      margin: -100px 0 0 -150px;
+    }
