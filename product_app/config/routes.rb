@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   get 'static_pages/product1'
   get 'static_pages/product2'
   get 'static_pages/product3'
+  get 'static_pages/index'
+  get 'static_pages/new'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
