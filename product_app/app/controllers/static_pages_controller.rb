@@ -10,4 +10,12 @@ class StaticPagesController < ApplicationController
 
   def product
   end
+
+  def search
+    @novels = if params[:term]
+      Novel.where('title LIKE ?', "%#{params[:term]}")
+    else
+      Novel.all
+      end
+      end
 end
